@@ -7,26 +7,24 @@ import { ref, onMounted, nextTick } from "vue";
 const modules = [Navigation, Pagination, Autoplay];
 
 const maleList = [
-  "/showcase/images/m_3.jpg",
-  "/showcase/images/m_1.png",
-  "/showcase/images/m_2.jpg",
-  "/showcase/images/m_13.jpg",
-  "/showcase/images/m_8.png",
-  "/showcase/images/m_11.png",
+  "./showcase/images/m_3.jpg",
+  "./showcase/images/m_1.png",
+  "./showcase/images/m_2.jpg",
+  "./showcase/images/m_13.jpg",
+  "./showcase/images/m_8.png",
+  "./showcase/images/m_11.png",
 ];
 
 const femaleList = [
-  "/showcase/images/f_14.jpg",
-  "/showcase/images/f_0_w.png",
-  "/showcase/images/f_1.png",
-  "/showcase/images/f_2_w.png",
-  "/showcase/images/f_9.jpg",
-  "/showcase/images/f_5_w.png",
-
+  "./showcase/images/f_14.jpg",
+  "./showcase/images/f_0_w.png",
+  "./showcase/images/f_1.png",
+  "./showcase/images/f_2_w.png",
+  "./showcase/images/f_9.jpg",
+  "./showcase/images/f_5_w.png",
 ];
 
 const image_paths = [...maleList, ...femaleList];
-
 
 const isDragging = ref(false);
 const dragImage = ref(null);

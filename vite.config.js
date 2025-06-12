@@ -26,11 +26,11 @@ export default defineConfig({
     }),
 
   ],
-  server: {
-    host: true, // 允许外部访问
-    port: 3000, // 你的 Vite 端口
-    allowedHosts: ['.ngrok-free.app'] // 允许 ngrok 的子域访问
-  },
+  // server: {
+  //   host: true, // 允许外部访问
+  //   port: 3000, // 你的 Vite 端口
+  //   allowedHosts: ['.ngrok-free.app'] // 允许 ngrok 的子域访问
+  // },
   base:'/singsPage',
   resolve: {
     alias: {

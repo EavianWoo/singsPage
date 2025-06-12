@@ -1,9 +1,9 @@
 <script lang="ts" setup>
 
 import { ElIcon } from 'element-plus'
-import { DataAnalysis} from '@element-plus/icons-vue'
+import { DataAnalysis} from '@element-plus./icons-vue'
 import { Github, Youtube, Wand} from "lucide-vue-next";
-import ArxivIcon from '@/assets/icons/arXiv-3.svg'
+import ArxivIcon from '@/assets./icons/arXiv-3.svg'
 
 // gif logo
 import { defineProps } from 'vue';
@@ -63,73 +63,73 @@ const btn_color = '#444444'
 const authors = [
   {
     name: "Yufan Wu",
-    icon: "/icon/authors/mine.jpeg",
+    icon: "./icon/authors/mine.jpeg",
     homepage: "https://github.com/EavianWoo/",
     address_flag: "1, 2"
   },
   {
     name: "Xuanhong Chen",
-    icon: "/icon/authors/xuanhongChen.png",
+    icon: "./icon/authors/xuanhongChen.png",
     homepage: "https://github.com/neuralchen",
     address_flag: "1, 2, *"
   },
   {
     name: "Wen Li",
-    icon: "/icon/authors/wenLi.gif",
+    icon: "./icon/authors/wenLi.gif",
     homepage: "https://github.com/lililuya",
     address_flag: "1, 2"
   },
   {
     name: "Shunran Jia",
-    icon: "/icon/authors/unkown/unknown.jpeg",
+    icon: "../icon/authors/unkown/unknown.jpeg",
     // homepage: "",
     address_flag: ""
   },
   {
     name: "Hualiang Wei",
-    icon: "/icon/authors/unkown/unknown.jpeg",
+    icon: "./icon/authors/unkown/unknown.jpeg",
     // homepage: "",
     address_flag: "1, 2"
   },
   {
     name: "Kairui Feng",
-    icon: "/icon/authors/unkown/unknown.jpeg",
+    icon: "./icon/authors/unkown/unknown.jpeg",
     // homepage: "",
     address_flag: "1"
   },
   {
     name: "Jialiang CHEN",
-    icon: "/icon/authors/unkown/unknown.jpeg",
+    icon: "./icon/authors/unkown/unknown.jpeg",
     // homepage: "",
     address_flag: ""
   },
   {
     name: "Yuhan Li",
-    icon: "/icon/authors/unkown/unknown.jpeg",
+    icon: "./icon/authors/unkown/unknown.jpeg",
     // homepage: "",
     address_flag: "1"
   },
   {
     name: "Ang He",
-    icon: "/icon/authors/unkown/unknown.jpeg",
+    icon: "./icon/authors/unkown/unknown.jpeg",
     // homepage: "",
     address_flag: "1"
   },
   {
     name: "Weimin Zhang",
-    icon: "/icon/authors/unkown/unknown.jpeg",
+    icon: "./icon/authors/unkown/unknown.jpeg",
     // homepage: "",
     address_flag: "1"
   },
   {
     name: "Bingbing Ni",
-    icon: "/icon/authors/unkown/unknown.jpeg",
+    icon: "./icon/authors/unkown/unknown.jpeg",
     // homepage: "",
     address_flag: "1"
   },
   {
     name: "Wenjun Zhang",
-    icon: "/icon/authors/unkown/unknown.jpeg",
+    icon: "./icon/authors/unkown/unknown.jpeg",
     // homepage: "",
     address_flag: "1"
   },
@@ -140,25 +140,25 @@ const addresses = [
   {
     address_flag: "1",
     name: "Shanghai Jiao Tong University",
-    icon: "/icon/SJTU_logo.png",
+    icon: "./icon/SJTU_logo.png",
     homepage: "https://en.sjtu.edu.cn/"
   },
   {
     address_flag: "2",
     name: "ICCI, USC-SJTU",
-    icon: "/icon/ICCI.jpeg",
+    icon: "./icon/ICCI.jpeg",
     homepage: "https://icci.sjtu.edu.cn/"
   },
   // {
   //   address_flag: "",
   //   name: "Akool",
-  //   icon: "/icon/Akool_logo.png",
+  //   icon: "./icon/Akool_logo.png",
   //   homepage: "https://www.akool.com/"
   // },
   // {
   //   address_flag: "",
   //   name: "SocialBook",
-  //   icon: "/icon/SocialBook_logo.png",
+  //   icon: "./icon/SocialBook_logo.png",
   //   homepage: "https://socialbook.io/"
   // },
 ]
@@ -166,13 +166,13 @@ const SpecialAck = [
   {
     address_flag: "",
     name: "Akool",
-    icon: "/icon/Akool_logo.png",
+    icon: "./icon/Akool_logo.png",
     homepage: "https://www.akool.com/"
   },
   {
     address_flag: "",
     name: "SocialBook",
-    icon: "/icon/SocialBook_logo.png",
+    icon: "./icon/SocialBook_logo.png",
     homepage: "https://socialbook.io/"
   },
 ]
