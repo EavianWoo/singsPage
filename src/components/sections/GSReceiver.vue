@@ -173,7 +173,7 @@ const showCases = ref([
 
 const splatFiles = ref([
   {
-    path: '/showcase/3dgs/m_3_new.splat',
+    path: './showcase/3dgs/m_3_new.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -181,7 +181,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0]
   },
   {
-    path:'/showcase/3dgs/m_1_new.splat',
+    path:'./showcase/3dgs/m_1_new.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -189,7 +189,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: '/showcase/3dgs/m_2_new.splat',
+    path: './showcase/3dgs/m_2_new.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -197,7 +197,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: '/showcase/3dgs/m_13.splat',
+    path: './showcase/3dgs/m_13.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -205,7 +205,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: '/showcase/3dgs/m_8.splat',
+    path: './showcase/3dgs/m_8.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -213,7 +213,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: '/showcase/3dgs/m_11_new.splat',
+    path: './showcase/3dgs/m_11_new.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -289,19 +289,6 @@ onMounted(() => {
       overlay.style.borderRadius = '10px';
       gs.style.position = 'relative';
       gs.appendChild(overlay);
-
-      // const addIcon = document.createElement('div');
-      // addIcon.className = 'add-icon';
-      // addIcon.style.display = 'none'; // 默认隐藏
-      // overlay.appendChild(addIcon);
-
-      /// --控制- ///
-
-
-      // overlay.addEventListener('mouseenter', () => {
-
-      // if (hasInitialized.value[index]) return;
-      // hasInitialized.value[index] = true;
 
       const viewer = new GaussianSplats3D.Viewer({
         rootElement: gs,
