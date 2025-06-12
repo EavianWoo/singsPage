@@ -1,9 +1,9 @@
 <script lang="ts" setup>
 
 import { ElIcon } from 'element-plus'
-import { DataAnalysis} from '@element-plus./icons-vue'
+import { DataAnalysis} from '@element-plus/icons-vue'
 import { Github, Youtube, Wand} from "lucide-vue-next";
-import ArxivIcon from '@/assets./icons/arXiv-3.svg'
+import ArxivIcon from '@/assets/icons/arXiv-3.svg'
 
 // gif logo
 import { defineProps } from 'vue';
