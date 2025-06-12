@@ -20,7 +20,7 @@ import PdfViewer from 'vue3-pdfjs';
     <el-row justify="center">
       <el-col :xs="24" :sm="20" :md="16" :lg="16" :xl="16">
         <div class="pdf-wrapper">
-          <embed src="/framework/framework.pdf#view=FitH"
+          <embed src="/sinGS/framework/framework.pdf#view=FitH"
                  type="application/pdf"
                  class="pdf-embed">
         </div>
