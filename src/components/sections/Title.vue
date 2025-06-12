@@ -32,8 +32,8 @@ const formattedNews = computed(() => {
 
 
 // logo地址，没有则置为""即可
-const static_logo = '/ICCI_logo.png'
-const dynamic_logo = '/dynamic_logo.gif'
+const static_logo = './ICCI_logo.png'
+const dynamic_logo = './dynamic_logo.gif'
 
 // 标题
 const title_seq_0 = 'Sin'
@@ -81,7 +81,7 @@ const authors = [
   },
   {
     name: "Shunran Jia",
-    icon: "../icon/authors/unkown/unknown.jpeg",
+    icon: "./icon/authors/unkown/unknown.jpeg",
     // homepage: "",
     address_flag: ""
   },
