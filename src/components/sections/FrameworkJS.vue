@@ -17,7 +17,7 @@ onMounted(async () => {
   pdfjsLib.GlobalWorkerOptions.workerSrc =
       'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.14.305/pdf.worker.min.js';
 
-  const url = './framework/framework.pdf'; // 你的 PDF 路径
+  const url = '/framework/framework.pdf'; // 你的 PDF 路径
 
   const loadingTask = pdfjsLib.getDocument(url);
 
