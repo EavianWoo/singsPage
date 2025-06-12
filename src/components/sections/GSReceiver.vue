@@ -221,7 +221,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: '/showcase/3dgs/f_14_arm_down.splat',
+    path: './showcase/3dgs/f_14_arm_down.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -229,7 +229,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: '/showcase/3dgs/f_0_arm_down.splat',
+    path: './showcase/3dgs/f_0_arm_down.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -237,7 +237,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: '/showcase/3dgs/f_1_arm_down.splat',
+    path: './showcase/3dgs/f_1_arm_down.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -245,7 +245,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: '/showcase/3dgs/f_2_arm_down.splat',
+    path: './showcase/3dgs/f_2_arm_down.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -253,7 +253,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: '/showcase/3dgs/f_9_arm_down.splat',
+    path: './showcase/3dgs/f_9_arm_down.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -261,7 +261,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: '/showcase/3dgs/f_5_arm_down.splat',
+    path: './showcase/3dgs/f_5_arm_down.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
