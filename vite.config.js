@@ -31,7 +31,7 @@ export default defineConfig({
     port: 3000, // 你的 Vite 端口
     allowedHosts: ['.ngrok-free.app'] // 允许 ngrok 的子域访问
   },
-  base:'/',
+  base:'/singsPage',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
