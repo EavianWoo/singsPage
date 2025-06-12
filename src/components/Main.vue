@@ -6,7 +6,7 @@ import BibTeX from './sections/BibTeX.vue'
 import Video from './sections/Video.vue'
 import Collapse from './sections/Collapse.vue'
 import Showcases from './sections/Showcases.vue'
-import FrameworkJS from './sections/FrameworkJS.vue'
+import Framework from './sections/Framework.vue'
 import AnimVideo from './sections/AnimVideo.vue'
 
 export default {
@@ -19,7 +19,7 @@ export default {
     BibTeX,
     Video,
     Collapse,
-    FrameworkJS,
+    Framework,
   }
 }
 </script>
@@ -32,7 +32,7 @@ export default {
   <Showcases/>
   <Abstract/>
   <Video/>
-  <FrameworkJS/>
+  <Framework/>
   <Collapse/>
   <BibTeX/>
 </template>
