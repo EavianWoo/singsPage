@@ -1,0 +1,41 @@
+{
+  "name": "my-project-page",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@mdx-js/rollup": "^3.1.0",
+    "@mkkellogg/gaussian-splats-3d": "^0.4.7",
+    "echarts": "^5.4.3",
+    "element-plus": "^2.9.1",
+    "katex": "^0.13.24",
+    "lucide-vue-next": "^0.479.0",
+    "ngrok": "^5.0.0-beta.2",
+    "rehype-katex": "^7.0.1",
+    "remark-gfm": "^4.0.0",
+    "remark-math": "^6.0.0",
+    "swiper": "^10.3.1",
+    "vatex": "^0.1.0",
+    "video.js": "^8.21.0",
+    "vite-plugin-cross-origin-isolation": "^0.1.6",
+    "vite-svg-loader": "^5.1.0",
+    "vue": "^3.3.4",
+    "vue-3d-loader": "^2.2.4",
+    "vue-echarts": "^6.6.8",
+    "vue-router": "^4.5.0",
+    "vue3-compare-image": "^1.2.5",
+    "vue3-pdfjs": "^0.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "sass-embedded": "^1.86.1",
+    "twikoo": "^1.6.40",
+    "vite": "^6.2.1"
+  }
+}

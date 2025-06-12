@@ -1,0 +1,18 @@
+# Framework
+
+SinGS architecture comprises two main components:
+- **Kinematic Human Diffusion (KHD) - The eigen of SinGS**:
+
+  A diffusion-based architecture designed to sample within human kinematic space instead of pure camera space (e.g SDS-based multi-view generation), generating identity-consistent image sequences across a wide range of human motions involving turning poses — with natural fluidity.
+
+- **Geometry-Preserving 3DGS (CGS) - The thruster and stabilizer of SinGS**:
+
+  A triplane-based networks to learn geometry and appearance for animatable avatar, benefit from the hybrid representation that combines mesh structure and Gaussian primitives
+  By introducing two key strategies:
+
+    1. Semantic Laplacian Regularization
+
+    2. Geometry-Preserving Density Control
+
+  GPGS maintains high-quality results even under imperfect priors.
+
