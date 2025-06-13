@@ -396,6 +396,9 @@ onBeforeUnmount(() => {
     <el-row justify="center">
       <p style="color: gray; font-size: 18px;"> Try to drag and drop a character to the viewer for detail observation! </p>
     </el-row>
+    <el-row justify="center">
+      <p style="color: gray; font-size: 12px;"> After loading, 🖱🖱 DOUBLE-CLICK anywhere on the model to set the rotation center.</p>
+    </el-row >
 
     <el-row justify="center" :gutter="10">
       <el-col
