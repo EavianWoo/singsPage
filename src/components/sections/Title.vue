@@ -193,7 +193,7 @@ const buttons = [
   {
     disabled: false,
     name: "Paper",
-    link: "https://github.com/EavianWoo/SinGS",
+    link: "https://openaccess.thecvf.com/content/CVPR2025/papers/Wu_SinGS_Animatable_Single-Image_Human_Gaussian_Splats_with_Kinematic_Priors_CVPR_2025_paper.pdf",
     component: ArxivIcon,
   },
   {
@@ -205,7 +205,7 @@ const buttons = [
   {
     disabled: false,
     name: "Demo",
-    link: "https://github.com/EavianWoo/SinGS",
+    link: "",
     component: Wand,
   },
   {
@@ -216,7 +216,7 @@ const buttons = [
   {
     disabled: true,
     name: "Video",
-    link: "",
+    link: "https://youtu.be/2NVqoVNVmjY",
     component: Youtube,
   },
 ]
