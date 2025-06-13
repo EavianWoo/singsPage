@@ -285,7 +285,7 @@ onMounted(() => {
       // 创建一个遮罩层
       const overlay = document.createElement('div');
       overlay.className = 'overlay';
-      overlay.innerText = '放置加载 3D 视图';
+      overlay.innerText = 'Place here to load 3D view';
       overlay.style.borderRadius = '10px';
       gs.style.position = 'relative';
       gs.appendChild(overlay);
@@ -394,7 +394,7 @@ onBeforeUnmount(() => {
 <!--      <h1 class="section-title"> Showcase </h1>-->
 <!--    </el-row>-->
     <el-row justify="center">
-      <p style="color: gray;"> Try to drag and drop a character to the viewer for detail observation! </p>
+      <p style="color: gray; font-size: 18px;"> Try to drag and drop a character to the viewer for detail observation! </p>
     </el-row>
 
     <el-row justify="center" :gutter="10">

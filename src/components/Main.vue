@@ -1,5 +1,6 @@
 <script>
 import Title from './sections/Title.vue'
+import OneLine from './sections/OneLine.vue'
 import Abstract from './sections/Abstract.vue'
 import Markdown from './sections/Markdown.vue'
 import BibTeX from './sections/BibTeX.vue'
@@ -12,6 +13,7 @@ import AnimVideo from './sections/AnimVideo.vue'
 export default {
   components: {
     Title,
+    OneLine,
     AnimVideo,
     Abstract,
     Showcases,
@@ -28,6 +30,7 @@ export default {
   <Title/>
 <!--  <Carousel/>-->
 <!--  <GsReceiver/>-->
+  <OneLine/>
   <AnimVideo/>
   <Showcases/>
   <Abstract/>

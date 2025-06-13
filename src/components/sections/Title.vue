@@ -203,9 +203,9 @@ const buttons = [
     component: Github,
   },
   {
-    disabled: false,
+    disabled: true,
     name: "Demo",
-    link: "",
+    link: "https://eavianwoo.github.io/singsPage/",
     component: Wand,
   },
   {
@@ -214,7 +214,7 @@ const buttons = [
     component: DataAnalysis,
   },
   {
-    disabled: true,
+    disabled: false,
     name: "Video",
     link: "https://youtu.be/2NVqoVNVmjY",
     component: Youtube,
