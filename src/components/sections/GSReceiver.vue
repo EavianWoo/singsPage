@@ -173,7 +173,7 @@ const showCases = ref([
 
 const splatFiles = ref([
   {
-    path: './showcase/3dgs/m_3_new.splat',
+    path: '/showcase/3dgs/m_3_new.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -181,7 +181,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0]
   },
   {
-    path:'./showcase/3dgs/m_1_new.splat',
+    path:'/showcase/3dgs/m_1_new.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -189,7 +189,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: './showcase/3dgs/m_2_new.splat',
+    path: '/showcase/3dgs/m_2_new.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -197,7 +197,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: './showcase/3dgs/m_13.splat',
+    path: '/showcase/3dgs/m_13.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -205,7 +205,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: './showcase/3dgs/m_8.splat',
+    path: '/showcase/3dgs/m_8.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -213,7 +213,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: './showcase/3dgs/m_11_new.splat',
+    path: '/showcase/3dgs/m_11_new.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -221,7 +221,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: './showcase/3dgs/f_14_arm_down.splat',
+    path: '/showcase/3dgs/f_14_arm_down.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -229,7 +229,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: './showcase/3dgs/f_0_arm_down.splat',
+    path: '/showcase/3dgs/f_0_arm_down.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -237,7 +237,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: './showcase/3dgs/f_1_arm_down.splat',
+    path: '/showcase/3dgs/f_1_arm_down.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -245,7 +245,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: './showcase/3dgs/f_2_arm_down.splat',
+    path: '/showcase/3dgs/f_2_arm_down.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -253,7 +253,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: './showcase/3dgs/f_9_arm_down.splat',
+    path: '/showcase/3dgs/f_9_arm_down.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
@@ -261,7 +261,7 @@ const splatFiles = ref([
     scale: [1.0, 1.0, 1.0],
   },
   {
-    path: './showcase/3dgs/f_5_arm_down.splat',
+    path: '/showcase/3dgs/f_5_arm_down.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 0, 0],
