@@ -145,11 +145,27 @@ const showCases = ref([
     scale: [0.5, 0.5, 0.5],
   },
   {
-    path: '/showcase/3dgs/m_1.splat',
+    path:'/3dgs/converted.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: false,
-    position: [0, 0, -0.5],
-    rotation: [1, 0, 0, 0],
+    position: [3, 5, 5],
+    rotation: [0, 1, 0, 1],
+    scale: [0.5, 0.5, 0.5],
+  },
+  {
+    path:'/3dgs/converted.splat',
+    splatAlphaRemovalThreshold: 5,
+    showLoadingUI: false,
+    position: [3, 5, 5],
+    rotation: [0, 1, 0, 1],
+    scale: [0.5, 0.5, 0.5],
+  },
+  {
+    path:'/3dgs/converted.splat',
+    splatAlphaRemovalThreshold: 5,
+    showLoadingUI: false,
+    position: [3, 5, 5],
+    rotation: [0, 1, 0, 1],
     scale: [0.5, 0.5, 0.5],
   },
 
@@ -258,7 +274,8 @@ const splatFiles = ref([
 
 const splatFilesInViewers = ref(new Array(showCases.value.length).fill(null));
 
-
+// bypass the compression
+const raw_url = "https://raw.githubusercontent.com/EavianWoo/singsPage/master/public"
 
 onMounted(() => {
 
@@ -311,7 +328,7 @@ onMounted(() => {
               // overlay.style.display = 'none';
               console.log('viewer', index, 'changed from', oldItem, 'to', newItem);
               if (oldItem) {
-                viewer.addSplatScene(import.meta.env.BASE_URL + newItem.path, {
+                viewer.addSplatScene(raw_url + newItem.path, {
                   splatAlphaRemovalThreshold: newItem.splatAlphaRemovalThreshold,
                   showLoadingUI: newItem.showLoadingUI,
                   position: newItem.position,
@@ -329,7 +346,7 @@ onMounted(() => {
               }
               else {
                 viewer
-                    .addSplatScene(import.meta.env.BASE_URL + newItem.path, {
+                    .addSplatScene(raw_url + newItem.path, {
                       splatAlphaRemovalThreshold: newItem.splatAlphaRemovalThreshold,
                       showLoadingUI: newItem.showLoadingUI,
                       position: newItem.position,
