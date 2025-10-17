@@ -134,16 +134,8 @@ const handleDrop = (event) => {
 };
 
 
-// TODO 这里改成相viewerOpts控制参数
+// TODO viewerOpts控制参数
 const showCases = ref([
-  {
-    path: '/showcase/3dgs/m_1_new.splat',
-    splatAlphaRemovalThreshold: 5,
-    showLoadingUI: true,
-    position: [0, 1, -1],
-    rotation: [0, 0, 0, 1],
-    scale: [0.18, 0.18, 0.18]
-  },
   {
     path:'/3dgs/converted.splat',
     splatAlphaRemovalThreshold: 5,
@@ -159,14 +151,6 @@ const showCases = ref([
     position: [0, 0, -0.5],
     rotation: [1, 0, 0, 0],
     scale: [0.5, 0.5, 0.5],
-  },
-  {
-    path: '/showcase/3dgs/m_1.splat',
-    splatAlphaRemovalThreshold: 5,
-    showLoadingUI: true,
-    position: [0, 1, -1],
-    rotation: [0, 0, 0, 1],
-    scale: [0.18, 0.18, 0.18]
   },
 
 ]);
@@ -327,7 +311,7 @@ onMounted(() => {
               // overlay.style.display = 'none';
               console.log('viewer', index, 'changed from', oldItem, 'to', newItem);
               if (oldItem) {
-                viewer.addSplatScene(newItem.path, {
+                viewer.addSplatScene(import.meta.env.BASE_URL + newItem.path, {
                   splatAlphaRemovalThreshold: newItem.splatAlphaRemovalThreshold,
                   showLoadingUI: newItem.showLoadingUI,
                   position: newItem.position,
@@ -345,7 +329,7 @@ onMounted(() => {
               }
               else {
                 viewer
-                    .addSplatScene(newItem.path, {
+                    .addSplatScene(import.meta.env.BASE_URL + newItem.path, {
                       splatAlphaRemovalThreshold: newItem.splatAlphaRemovalThreshold,
                       showLoadingUI: newItem.showLoadingUI,
                       position: newItem.position,

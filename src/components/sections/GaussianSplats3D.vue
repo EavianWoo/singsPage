@@ -32,7 +32,7 @@ const viewerOpts = [
 
 const showCases = [
   {
-    path: './3dgs/cotton-mirror.splat',
+    path: '/3dgs/cotton-mirror.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 1, -1],
@@ -58,7 +58,7 @@ const showCases = [
     visible: false,
   },
   {
-    path: './3dgs/cotton-mirror.splat',
+    path: '/3dgs/cotton-mirror.splat',
     splatAlphaRemovalThreshold: 5,
     showLoadingUI: true,
     position: [0, 1, -1],
